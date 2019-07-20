@@ -1,0 +1,10 @@
+a,b=int(input()).split()
+a=int(a)
+b=int(b)
+list=input.split()
+p=0
+q=0
+while(q<b):
+p=p+int(list[q])
+q=q+1
+print(p)
